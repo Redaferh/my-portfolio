@@ -1,9 +1,10 @@
-import Hero from "@/components/portfolio/Hero"
-import About from "@/components/portfolio/About"
-import Experience from "@/components/portfolio/Experience"
-import Projects from "@/components/portfolio/Projects"
-import Contact from "@/components/portfolio/Contact"
-import "@/styles/portfolio.css"
+import Hero from "./Hero"
+import About from "./About"
+import Experience from "./Experience"
+import Projects from "./Projects"
+import Contact from "./Contact"
+import "./portfolio.css"                          
+
 
 export default function Portfolio() {
   return (
